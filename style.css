@@ -1,0 +1,96 @@
+/*style in css then use javascript to tell it where to place the script*/
+/*one main box, put pokedex image as background*/
+body{
+    height: 600px;
+}
+
+.entire-pokedex{
+    margin: auto;
+    background-image: url("./img/pokedex\ 2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: relative;
+    
+}
+/*will need 3 boxes, image, text, search box*/
+.form-box{
+    
+    position: absolute;
+    bottom: 6%;
+    left: 11%;
+    width: 32%;
+    height: 16%;
+    
+    
+    
+}
+#searchbar{
+    position: relative;
+    height: 100%;
+}
+    
+#inputBar{
+    position: absolute;
+    display: inline-block;
+    width: 45%;
+    height: 55%;
+    top: 31%;
+    left: 4%;
+    background-color: #fbfb06;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+#submitButton{
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    display: inline-block;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background: none;
+    color: gray;
+    
+}
+
+.img-box{
+    position: relative;
+    left: 10%;
+    top: 27%;
+    width: 250px;
+    height: 200px;
+    outline: 0;
+    
+}
+
+#pokemonImg{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    align-content: center;
+    outline: 0;
+    position: absolute;
+    top: 5%;
+    left: 13%;
+   
+}
+
+.pokeDetails-box{
+    
+    width: 32%;
+    height: 116px;
+    position: relative;
+    left: 62%;
+    bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
